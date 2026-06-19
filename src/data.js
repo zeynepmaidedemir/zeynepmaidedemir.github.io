@@ -9,6 +9,7 @@ export const profile = {
   email: 'zeynepmaidedemir@gmail.com',
   github: 'https://github.com/zeynepmaidedemir',
   linkedin: 'https://www.linkedin.com/in/zeynep-maide-demir/',
+  instagram: 'https://www.instagram.com/zeynepdofficial/',
   appleDeveloper:
     'https://apps.apple.com/gb/developer/zeynep-maide-demir/id6773436207',
   cv: './Zeynep_Maide_Demir_CV.pdf',

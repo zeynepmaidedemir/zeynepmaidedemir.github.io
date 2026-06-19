@@ -17,6 +17,7 @@ const githubIcon = <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.9
 const linkedinIcon = <><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></>
 const appleIcon = <><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 4a4.69 4.69 0 0 0-5 2 4.69 4.69 0 0 0-5-2 4.91 4.91 0 0 0-5 5.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z" /><path d="M10 2c1 .5 2 2 2 5" /></>
 const cvIcon = <><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M12 18v-6" /><path d="m9 15 3 3 3-3" /></>
+const instagramIcon = <><rect x="2" y="2" width="20" height="20" rx="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></>
 const starIcon = <path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z" />
 
 export default function App() {
@@ -179,6 +180,9 @@ export default function App() {
             </a>
             <a className="contact-link" href={profile.github} target="_blank" rel="noreferrer">
               <Icon path={githubIcon} /> GitHub
+            </a>
+            <a className="contact-link" href={profile.instagram} target="_blank" rel="noreferrer">
+              <Icon path={instagramIcon} /> Instagram
             </a>
             <a className="contact-link" href={profile.appleDeveloper} target="_blank" rel="noreferrer">
               <Icon path={appleIcon} /> App Store
